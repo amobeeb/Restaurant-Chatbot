@@ -1,0 +1,262 @@
+@font-face{
+		font-family: brushy;
+		src: url(brushy/brushy.ttf);
+		font-style: normal;
+
+	}
+body{
+	background-color: rgb(242,242,242);
+}
+.top-wrap{
+	background-color: rgb(0,0,0);
+	box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+	height: auto;
+
+}
+.logo h1{
+	color: white;
+	font-family: Brush Script Std;
+	font-weight: bold;
+	font-size: 38px;
+	letter-spacing: 3px;
+}
+.logo h1 a{
+	color: white;
+	text-decoration: none;
+}
+.search{
+	padding-top: 5%;
+}
+
+.search form input[type=search]{
+	margin-left: ;
+	border-radius: 5px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0
+}
+.search input[type=search]::-webkit-input-placeholder{
+	color: gray !important;
+}
+.search .btn{
+	padding: 9px;
+	margin-left: -6px;
+	border: none;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	margin-right: 0;
+}
+.menu .col-md-7{
+	padding: 0;
+	margin-top: 15px;
+	
+}
+.menu ul li{
+	font-size: 18px;
+	color: rgb(126,238,255);
+	padding: 5px;
+	padding-left: 12px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+
+}
+
+.carousel-inner > .item > img{
+	width: 100%;
+	max-height: 460px;
+}
+.carousel-indicators li{
+	background-color: white;
+	border: 1px solid rgb(0,0,0);
+}
+.carousel .carousel-control{
+		background-image: none;
+	}
+	
+.service{
+	margin-top: 1%;
+}
+.service h2{
+	color: rgb(86,37,40);
+}
+.content{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	
+}
+.mission h2{
+	color: rgb(86,37,40);
+}
+.vision h2{
+	color: rgb(86,37,40);
+}
+.link h2{
+	color: rgb(86,37,40);
+}
+.contact h2{
+	color: rgb(86,37,40);
+}
+.link ul li{
+	border: none;
+	color: rgb(86,37,40);
+	font-size: 18px;
+	padding: 2px;
+}
+.content .content-holder{
+	margin: 0;
+	padding: 0;
+	height: auto;
+
+
+}
+.service-img
+{
+	background-image: url(../img/food5.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 245px;
+	position: relative;
+
+	
+}
+.services-img{
+	background-image: url(../img/food3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 245px;
+	position: relative;
+	
+
+}
+.servicess-img{
+	background-image: url(../img/food4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 245px;
+	position: relative;
+	}
+.service-img p, .services-img p, .servicess-img p{
+	position: absolute;
+	bottom: -11px;
+	right: 0;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.contact form input[type=text]{
+	color: white;
+	border-radius: 0;
+	background-color: rgb(0,0,0);
+	padding: 5px;
+	height: 45px;
+	border: 1px solid white;
+	font-size: 18px;
+}
+::-webkit-input-placeholder{
+	color: white !important;
+}
+::-moz-input-placeholder{
+	color: white !important;
+}
+.contact button.btn{
+	margin-top: 3%;
+	background-color: rgb(0,0,0);
+	border-radius: 15px;
+	color: white;
+	border: none;
+	
+}
+textarea{
+	margin-top: 20px;
+	background-color: #000 !important;
+	color: #fff !important;
+}
+
+.row .info{
+	background-color: white;
+	height: auto;
+	padding-bottom: 15px;
+}
+.footer{
+	background-color: rgb(0,0,0);
+	box-shadow: 3px 8px 1px 10px rgba(0,0,0,0.3);
+	box-shadow: border-box;
+	
+}
+.footer p{
+	padding: 18px;
+	color: white;
+}
+@media only screen and (max-width: 480px){
+	.logo h1 a{
+		margin-left: 15%;
+	}
+	br{
+		display: none;
+	}
+	.search form input[type=search]{
+		margin-top: -15px;
+		width: 90%;
+		float: left
+	}
+	.search .btn{
+		margin-left: -15px;
+		margin-top: -18px;
+		
+	}
+	.search{
+		padding-bottom: 0;
+	}
+	.menu .col-md-7{
+	padding: 0;
+	margin-top: 0;
+	
+	}
+	.menu ul{
+		
+		margin-left: -45px;
+	}
+	.menu ul li{
+		margin-top: -5px;
+		padding-top: -15px;
+		font-size: 14px;
+	}
+	.service-img, .services-img, .servicess-img{
+		max-height: 185px;
+	}
+	.footer p{
+		padding: 5px;
+	}
+
+	}
+	@media only screen and (max-width: 959px){
+		br{
+		display: none;
+		}
+		.search form input[type=search]{
+		margin-top: -15px;
+		width: 100%;
+		float: left
+	}
+	.search .btn{
+		margin-left: -35px;
+		margin-top: -18px;
+		
+	}
+		
+		.service-img, .services-img, .servicess-img{
+		max-height: 185px;
+	}
+	.footer p{
+		padding: 5px;
+	}
+
+	}
